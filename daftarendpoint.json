@@ -1,0 +1,26 @@
+//POST /auth/register 
+{
+    "username": "admin",
+    "password": "password123"
+  }
+  //POST /auth/login 
+  {
+    "username": "admin",
+    "password": "password123"
+  }
+  //GET /alumni
+  //POST /alumni
+  {
+    "name": "John Doe",
+    "phone": "08123456789",
+    "address": "Jakarta",
+    "graduation_year": 2020,
+    "status": "fresh-graduate",
+    "company_name": "N/A",
+    "position": "N/A"
+  }
+  //PUT /alumni/:id
+  //DELETE /alumni/:id.
+  //GET /alumni/:id.
+  //GET /alumni/search/:name.
+  //GET /alumni/status/:status (fresh-graduate, employed, unemployed).      
